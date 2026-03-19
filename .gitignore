@@ -1,0 +1,25 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Bot runtime
+bot.pid
+nohup.out
+
+# Data and logs (generated at runtime)
+data/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
